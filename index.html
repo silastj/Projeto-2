@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="assets/css/template.css">
+
+    <!-- INICIO DO COMANDO JAVASCRIPT PARA O MENU -->
+
+    <script type="text/javascript">
+    	window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click",function(){
+            	if(document.querySelector(".menu nav ul").style.display == 'flex') {
+            		document.querySelector(".menu nav ul").style.display = 'none';
+            	} else {
+            		document.querySelector(".menu nav ul").style.display = 'flex';
+            	}
+            });
+    	};
+    </script>	
+
+     <!-- FINAL DO COMANDO JAVASCRIPT PARA O MENU -->
+        
+	<title>Cidautostore</title>
+</head>
+<body>
+
+<header>
+	<div class="container">
+	      <div class="logo">
+	      	 <a href=""><img src="assets/images/cidauto.jpg"></a>
+	      </div>
+	      <div class="menu">
+	      	   <nav>
+	      	   	      <div class="menuMobile">                <!-- ESSAS 4 LINHAS SAO O MENU CRIADO SEM FOTO -->
+	      	   	      	  <div class="mm_line"></div>
+	      	   	      	  <div class="mm_line"></div>
+	      	   	      	  <div class="mm_line"></div>
+	      	     	
+	      	          </div>
+	      	   	   <ul>
+	      	   	   	   <li class="active"><a href="">Home</a></li>
+                       <li><a href="">Sobre Nós</a></li>
+                       <li><a href="">História</a></li>
+                       <li><a href="">Carros</a></li>
+                       <li><a href="">Contato</a></li>
+	      	   	   </ul>
+	      	   </nav>
+	      </div>
+	</div>
+</header>
+
+<section id="banner">
+	<div class="container column">  <!-- COLOCOU COLUMN PARA O BANNER FICAR ABAIXO DO OUTRO,NO CSS O .COLUMN FAZER PARTE -->
+		<div class="banner_headline">
+			<h1> Top Notch experience</h1>
+			<h2> Medicenter is a responsive template perfect for all screen sizes</h2>
+
+		</div>
+		<div class="banner_options">
+			<div class="banner1">
+				<div class="banner_title">Trocamos o seu carro</div>
+				    <div class="banner_desc">Super avaliado na troca.</div>
+				       <a href="">Clique Aqui</a>
+
+			</div>
+			<div class="banner2">
+				<div class="banner_title">Veiculos Sob Encomenda</div>
+				    <div class="banner_desc">Encomendamos o seu Veiculo com o melhor preço.</div>
+				       <a href="">Clique Aqui</a>
+			</div>
+			<div class="banner3">
+				<div class="banner_title">Vendemos o seu carro</div>
+				  <div class="text1">Monday -Friday  
+                      <div class="text1a"> 8.00 - 17.00</div>
+				  </div>
+				  <div class="text2">Saturday    
+                      <div class="text2a"> 9.30 - 17.30</div>
+				  </div>
+				  <div class="text3">Sunday    
+                      <div class="text3a"> 9.30 - 15.00</div>
+				  </div>
+			</div>
+		</div>
+	</div>
+</section>
+	<section id="geral">
+		<div class="container">
+			  <section>
+			  	<!-- 1 PARTE DO LADO ESQUERDO -->
+                      <div class="widget">
+                   	   <div class="widget_title">
+                   	   	   <div class="widget_title_text">Carros</div>
+                   	   	   <div class="widget_title_bar"></div>
+                   	   	       <div class="widget_body flex">   <!-- ESSE FLEX FOI PARA COMPLETAR NO CSS -->
+
+                                  <!-- ABAIXO 1 PARTE -->
+
+                   	   	       	    <article>
+                   	   	       	    	<a href="./">
+                   	   	       	           <div class="news_date">
+                                             <div class="news_posted_at">12 dec 12</div>
+                                             <div class="news_comments">02</div>
+                   	   	       	           </div>	
+                   	   	       	           <div class="news_thumbnail">
+                                              <img src="assets/images/body1.jpg"/>
+                                           </div>
+                                           <div class="news_title">
+                                               	Carros Novos e Semi-Novos.
+                                           </div>
+                                           <div class="news_resume">
+                                                Todos os carros são novos, com garantia de fabrica. Já os semi-novos tem garantia de 3 meses( motor e cambio).Há mais de 20 anos no mercado com toda segurançã na compra e venda do seu veiculo, com os melhores carro da zona leste de São Paulo. 
+                                            </div>
+                                        </a>
+                   	   	       	    </article>
+                                 <!-- ABAIXO A 2 PARTE -->
+                   	   	       	    <article>
+                   	   	       	    	<a href="./">
+                   	   	       	           <div class="news_date">
+                                             <div class="news_posted_at">12 dec 12</div>
+                                             <div class="news_comments">02</div>
+                   	   	       	           </div>	
+                   	   	       	           <div class="news_thumbnail2">
+                                              <img src="assets/images/body2.jpg"/>
+                                           </div>
+                                           <div class="news_title">
+                                               	Carros Novos e Semi-Novos.
+                                           </div>
+                                           <div class="news_resume">
+                                                Todos os carros são novos, com garantia de fabrica. Já os semi-novos tem garantia de 3 meses( motor e cambio).Há mais de 20 anos no mercado com toda segurançã na compra e venda do seu veiculo, com os melhores carro da zona leste de São Paulo. 
+                                            </div>
+                                        </a>
+                   	   	       	    </article>
+                              <!-- ABAIXO A 3 PARTE -->
+                   	   	       	    <article>
+                   	   	       	    	<a href="./">
+                   	   	       	           <div class="news_date">
+                                             <div class="news_posted_at">12 dec 12</div>
+                                             <div class="news_comments">02</div>
+                   	   	       	           </div>	
+                   	   	       	           <div class="news_thumbnail">
+                                              <img src="assets/images/body3.jpg"/>
+                                           </div>
+                                           <div class="news_title">
+                                               	Carros Novos e Semi-Novos.
+                                           </div>
+                                           <div class="news_resume">
+                                                Todos os carros são novos, com garantia de fabrica. Já os semi-novos tem garantia de 3 meses( motor e cambio).Há mais de 20 anos no mercado com toda segurançã na compra e venda do seu veiculo, com os melhores carro da zona leste de São Paulo. 
+                                            </div>
+                                        </a>
+                   	   	       	    </article>
+                              <!-- ABAIXO A 4 PARTE -->                    
+                   	   	       	    <article>
+                   	   	       	    	<a href="./">
+                   	   	       	           <div class="news_date">
+                                             <div class="news_posted_at">12 dec 12</div>
+                                             <div class="news_comments">02</div>
+                   	   	       	           </div>	
+                   	   	       	           <div class="news_thumbnail4">
+                                              <img src="assets/images/body4.jpg"/>
+                                           </div>
+                                           <div class="news_title">
+                                               	Carros Novos e Semi-Novos.
+                                           </div>
+                                           <div class="news_resume">
+                                                Todos os carros são novos, com garantia de fabrica. Já os semi-novos tem garantia de 3 meses( motor e cambio).Há mais de 20 anos no mercado com toda segurançã na compra e venda do seu veiculo, com os melhores carro da zona leste de São Paulo. 
+                                            </div>
+                                        </a>
+                   	   	       	    </article>
+
+
+
+
+
+  
+                   	   	     </div>
+                   	   </div>
+                   </div>
+			  </section>
+                 <aside>
+                 	<!-- 1 PARTE DO LADO DIREITO -->
+                   <div class="widget">
+                   	   <div class="widget_title">
+                   	   	   <div class="widget_title_text">Departamentos	</div>
+                   	   	   <div class="widget_title_bar"></div>
+                   	   	       <div class="widget_body">
+                   	   	   	       <div class="divq"> <a href=""> <img src="assets/images/sacola.png" width="100" height="90"></a>Venda</div>
+                   	   	   	       <div class="divq" <a href=""> <img src="assets/images/compra.png" width="100" height="90"></a>Compra</div>
+                   	   	   	       <div class="divq1" <a href=""> <img src="assets/images/troca.png" width="100" height="90"></a>Troca</div>
+                   	   	   	       <div class="divq1">  <a href=""> <img src="assets/images/documento.png" width="100" height="90"></a>Documentação</div>
+                   	   	   	       <div class="divq1" <a href=""> <img src="assets/images/manutencao.png" width="100" height="90"></a>Revisão</div>
+                   	   	   	       <div class="divq1"> <a href=""> <img src="assets/images/acessorios.png" width="100" height="90"></a>Acessorios</div>
+                   	   	   	   </div>
+                   	   </div>
+                   </div>
+                   <!-- 2 PARTE DO LADO DIREITO -->
+                     <div class="widget">
+                   	   <div class="widget_title">
+                   	   	   <div class="widget_title_text">Make An Appointment</div>
+                   	   	   <div class="widget_title_bar"></div>
+                   	   	       <div class="widget_body">
+                   	   	   	       <div class="text_text"> 
+                                        <p>Os melhores carros de encontra na CidautoStore localidado na Zona leste o maior de São Paulo-SP</p>
+				                   </div>
+				                        <div class="text_text1"><img src="assets/images/leitura.png" width="30px" height="30px"> <p>Melhor Financiamento</p></div>
+				                        <div class="text_text2"><img src="assets/images/leitura.png" width="30px" height="30px"> <p>Garantia de 6 meses( Motor e Cambio)</p></div>
+				                        <div class="text_text3"><img src="assets/images/leitura.png" width="30px" height="30px"><p>Garantia na procedencia</p></div>    
+                   	   </div>
+                   </div>
+                 </aside>	
+		</div>
+	</section>
+<footer>
+	 <div class="container flexColumn">
+	 	  <div class="footer_menu" >   <!-- NÃO ESTA DENTRO DE NAV, PQ NAO É MENU DE NAVEGAÇÃO -->
+	 	  	  <div class="fm_01">
+	 	  	  	<a href="">
+	 	  	  		<h1> Cidauto Store </h1>
+	 	  	  	Empresa há mais de 20 anos no mercado →	
+	 	  	  	</a>
+	 	  	  </div>
+              <div class="fm_02">
+	 	  	  	<a href="">
+	 	  	  		<h1> Cidauto Store</h1>
+	 	  	  	Empresa há mais de 20 anos no mercado →
+	 	  	  	</a>
+	 	  	  </div>
+	 	  	  <div class="fm_03">
+	 	  	  	<a href="">
+	 	  	  		<h1> Cidauto Store</h1>
+	 	  	  	Empresa há mais de 20 anos no mercado →
+	 	  	  	</a>
+	 	  	  </div>
+	 	  </div>
+
+	 	<!-- ABAIXO O RODAPE -->
+
+
+		 <div class="footer_area">
+             <div class="footer_areaitem">
+             	 <div class="widget">
+                   	   <div class="widget_title">
+                   	   	   <div class="widget_title_text">Contatos</div>
+                   	   	   <div class="widget_title_bar"></div>
+                   	   </div>	   
+                   	   	       <div class="widget_bodyp">
+                   	   	   	       Empresa há mais de 20 anos no mercado, com procedencia de primeira,satisfazendo todos os seus clientes.
+                   	   	   	        <div class="wb1">Segunda Feira</div>
+                   	   	   	           <div class="widget_bodyp2">
+                   	   	   	        <div class="wb2">Terca- Feira</div>
+                                    <div class="wb2a">(011)-4675-1300</div>
+                                       </div>
+                                       <div class="widget_bodyp2">
+                   	   	   	        <div class="wb2">Quarta feira </div>
+                                    <div class="wb2a">(011)-4675-1300</div>
+                   	   	   	            </div>
+                   	   	   	            <div class="widget_bodyp2">
+                   	   	   	        <div class="wb2">Quinta Feira </div>
+                                    <div class="wb2aa"><i>silastj@hotmail.com</i></div>
+                   	   	   	            </div>
+                   	   	   	            <div class="wbssocias">
+                   	   	   	            	<a href=""> <img src="assets/images/instagram.png" width="26" height="26"></a>
+                   	   	   	            	<a href=""> <img src="assets/images/facebook.png" width="26" height="26"></a>
+                   	   	   	            	<a href=""> <img src="assets/images/email.png" width="26" height="26"></a>
+                   	   	   	            	<a href=""> <img src="assets/images/youtube.png" width="26" height="26"></a>
+                   	   	   	            </div>
+
+
+				                      
+                   	   	   	   </div>
+                 </div>
+             </div>
+             <div class="footer_areaitem">
+             	 <div class="widget">
+                   	   <div class="widget_title">
+                   	   	   <div class="widget_title_text">Descontos</div>
+                   	   	   <div class="widget_title_bar"></div>
+                   	   </div>	   
+                   	   	       <div class="widget_bodyd">
+                   	   	   	     →   Empresa há mais de 20 anos no mercado, com procedencia de primeira ->
+                   	   	   	   </div>
+                   	   	   	   <div class="wbano1">
+                   	   	   	   	20 Agost 2018
+                   	   	   	   </div>
+                   	   	   	   <div class="widget_bodyd">
+                   	   	   	     →   Empresa há mais de 20 anos no mercado, com procedencia de primeira ->
+                   	   	   	   </div>
+                   	   	   	   <div class="wbano1">
+                   	   	   	   	20 Agost 2018
+                   	   	   	   </div>
+                   	   	   	   <div class="widget_bodyd">
+                   	   	   	     →   Empresa há mais de 20 anos no mercado, com procedencia de primeira ->
+                   	   	   	   </div>
+                   	   	   	   <div class="wbano1">
+                   	   	   	   	20 Agost 2018
+                   	   	   	   </div>
+                 </div>
+             </div>
+             <div class="footer_areaitem">
+             	 <div class="widget">
+                   	   <div class="widget_title">
+                   	   	   <div class="widget_title_text">Noticias</div>
+                   	   	   <div class="widget_title_bar"></div>
+                   	   </div>	   
+                   	   	       <div class="widget_bodyd">
+                   	   	   	     →   Empresa há mais de 20 anos no mercado, com procedencia de primeira,Empresa há mais de 20 anos no mercado, com procedencia de primeira
+                   	   	   	   </div>
+                   	   	   	   <div class="wbano1">
+                   	   	   	   	20 Agost 2018
+                   	   	   	   </div>
+                   	   	   	   <div class="widget_bodyd">
+                   	   	   	     →   Empresa há mais de 20 anos no mercado, com procedencia de primeira,Empresa há mais de 20 anos no mercado, com procedencia de primeira
+                   	   	   	   </div>
+                   	   	   	   <div class="wbano1">
+                   	   	   	   	20 Agost 2018
+                   	   	   	   </div>
+                   	   	   	   <div class="widget_bodyd">
+                   	   	   	     →   Empresa há mais de 20 anos no mercado, com procedencia de primeira,Empresa há mais de 20 anos no mercado, com procedencia de primeira
+                   	   	   	   </div>
+                   	   	   	   <div class="wbano1">
+                   	   	   	   	20 Agost 2018
+                   	   	   	   </div>
+                 </div>
+             </div>
+		 </div> 	
+		        <div class="footer_copy">
+			 	Copyright -Todos os direitos reservados 2018
+
+
+			    </div>
+	</div>
+</footer>
+
+
+
+
+
+</body>
+</html>
